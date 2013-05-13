@@ -30,7 +30,7 @@ public class Ad {
     private int bedroomsNo;
     private int bathroomsNo;
     private int floor;
-    private double area;
+    private double measurement;
     //Details
     private Date lastUpdate;
     private int constructionYear;
@@ -130,12 +130,12 @@ public class Ad {
         this.floor = floor;
     }
 
-    public double getArea() {
-        return area;
+    public double getMeasurement() {
+        return measurement;
     }
 
-    public void setArea(double area) {
-        this.area = area;
+    public void setMeasurement(double measurement) {
+        this.measurement = measurement;
     }
 
     public Date getLastUpdate() {
